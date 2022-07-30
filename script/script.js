@@ -7,7 +7,6 @@ function game() {
     while(playerPoints != 5 && computerPoints != 5) {
         playRound(getPlayerChoice(), getComputerChoice());
     }
-    if (playerPoints)
     showWinner();
 }
 
