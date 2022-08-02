@@ -4,7 +4,6 @@ body {
     font-size: 1em;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -44,8 +43,6 @@ body {
 .scoreCard {
     border: 0;
 }
-
-
 
 .playerCard:hover {
     cursor: pointer;
