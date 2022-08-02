@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width:1000px;
+}
+
+.hero h1 {
+    font-size: 10em;
+    color: #333;
+    margin: 0;
+    margin-bottom: .3em;
+}
+
+
+.playButton{
+    text-decoration: none;
+    width: 80%;
+    border: 0;
+    background-color: #333;
+    color: #f4f4f4;
+    font-size: 5em;
+    border-radius: .3em;
+    border: #333 solid 5px;
+}
+
+.playButton:hover {
+    color: #333;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: #333 solid 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}

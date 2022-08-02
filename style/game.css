@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    background-color: #f4f4f4;
+    font-size: 1em;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.board {
+    margin: 1em;
+    align-items: center;
+    display: flex;
+    height: 33%;
+    margin: auto;
+}
+
+.middleBoard {
+    opacity: 0;
+}
+
+.centerCards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+    border-radius: .6em;
+    border: #333 solid 5px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.scoreCard {
+    border: 0;
+}
+
+
+
+.playerCard:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.score {
+    font-size: 8em;
+}
+
+.cardName {
+    color:  #f4f4f4;
+    text-align: center;
+    margin: 1em;
+    margin-bottom: 1em;
+    background-color: #333;
+    width: 8em;
+    border-radius: .2em;
+    padding: .1em 0;
+}
+
+.card img {
+    background-color: black;
+    width: 7.3em;
+    height: 10em;
+    border: #333 solid 5px;
+    border-radius: .3em;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    width: 10em;
+    height: 3em;
+    margin: 1em;
+    border-radius: .3em;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
