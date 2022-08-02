@@ -85,5 +85,5 @@ function playRound(playerChoice, computerChoice) {
     middleBoard.style.opacity = "100%";
 }
 function endGame() {
-    playerPoints === 5 ? location.href = "/pages/winScreen.html" : location.href = "/pages/loseScreen.html";
+    playerPoints === 5 ? location.href = "pages/winScreen.html" : location.href = "pages/loseScreen.html";
 }
