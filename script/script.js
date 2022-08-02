@@ -20,26 +20,26 @@ playerCards.forEach(card => card.addEventListener("click", () => {
 function getPlayerChoice(choice) {
     switch(choice) {
         case "rock":
-            playerCardImage.setAttribute("src", "img/rock");
+            playerCardImage.setAttribute("src", "../img/rock");
             return "Rock";
         case "paper":
-            playerCardImage.setAttribute("src", "img/paper");
+            playerCardImage.setAttribute("src", "../img/paper");
             return "Paper"
         case "scissors":
-            playerCardImage.setAttribute("src", "img/scissors");
+            playerCardImage.setAttribute("src", "../img/scissors");
             return "Scissors"
     }
 }
 function getComputerChoice() {
     switch(Math.floor(Math.random()*3)){
         case 0:
-            computerCardImage.setAttribute("src", "img/rock");
+            computerCardImage.setAttribute("src", "../img/rock");
             return "Rock";
         case 1:
-            computerCardImage.setAttribute("src", "img/paper");
+            computerCardImage.setAttribute("src", "../img/paper");
             return "Paper";
         case 2:
-            computerCardImage.setAttribute("src", "img/scissors");
+            computerCardImage.setAttribute("src", "../img/scissors");
             return "Scissors"
     }
 }
@@ -85,5 +85,5 @@ function playRound(playerChoice, computerChoice) {
     middleBoard.style.opacity = "100%";
 }
 function endGame() {
-    playerPoints === 5 ? location.href = "pages/winScreen.html" : location.href = "pages/loseScreen.html";
+    playerPoints === 5 ? location.href = "../pages/winScreen.html" : location.href = "../pages/loseScreen.html";
 }
